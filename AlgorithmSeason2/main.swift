@@ -13,6 +13,7 @@ class Solution {
 
 let solution: Solution = .init()
 
-var input1: [Int] = [1, 1, 2]
-let result = solution.removeDuplicates(&input1)
+var input1: [Int] = [3,2,2,3]
+//let result = solution.removeDuplicates(&input1)
+let result = solution.removeElement(&input1, 3)
 print(result)
