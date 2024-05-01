@@ -7,5 +7,12 @@
 
 import Foundation
 
-print("Hello, World!")
+class Solution {
+    init() { }
+}
 
+let solution: Solution = .init()
+
+var input1: [Int] = [1, 1, 2]
+let result = solution.removeDuplicates(&input1)
+print(result)

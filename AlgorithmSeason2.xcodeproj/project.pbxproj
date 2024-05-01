@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		400AB5712BE1E818006A2AAB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400AB5702BE1E818006A2AAB /* main.swift */; };
+		400AB57C2BE1E95E006A2AAB /* 26. Remove Duplicates from Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400AB57B2BE1E92B006A2AAB /* 26. Remove Duplicates from Sorted Array.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		400AB56D2BE1E818006A2AAB /* AlgorithmSeason2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmSeason2; sourceTree = BUILT_PRODUCTS_DIR; };
 		400AB5702BE1E818006A2AAB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		400AB57B2BE1E92B006A2AAB /* 26. Remove Duplicates from Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "26. Remove Duplicates from Sorted Array.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,26 @@
 		400AB56F2BE1E818006A2AAB /* AlgorithmSeason2 */ = {
 			isa = PBXGroup;
 			children = (
+				400AB5772BE1E8F7006A2AAB /* leetcode */,
 				400AB5702BE1E818006A2AAB /* main.swift */,
 			);
 			path = AlgorithmSeason2;
+			sourceTree = "<group>";
+		};
+		400AB5772BE1E8F7006A2AAB /* leetcode */ = {
+			isa = PBXGroup;
+			children = (
+				400AB57A2BE1E927006A2AAB /* Array */,
+			);
+			path = leetcode;
+			sourceTree = "<group>";
+		};
+		400AB57A2BE1E927006A2AAB /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				400AB57B2BE1E92B006A2AAB /* 26. Remove Duplicates from Sorted Array.swift */,
+			);
+			path = Array;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				400AB5712BE1E818006A2AAB /* main.swift in Sources */,
+				400AB57C2BE1E95E006A2AAB /* 26. Remove Duplicates from Sorted Array.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
