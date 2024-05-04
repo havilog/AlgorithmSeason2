@@ -10,6 +10,9 @@
 		400AB5712BE1E818006A2AAB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400AB5702BE1E818006A2AAB /* main.swift */; };
 		400AB57C2BE1E95E006A2AAB /* 26. Remove Duplicates from Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400AB57B2BE1E92B006A2AAB /* 26. Remove Duplicates from Sorted Array.swift */; };
 		400AB5802BE1ED83006A2AAB /* 27. Remove Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400AB57F2BE1ED83006A2AAB /* 27. Remove Element.swift */; };
+		400AB5832BE5FA32006A2AAB /* ex1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400AB5822BE5FA32006A2AAB /* ex1.swift */; };
+		400AB5852BE5FD5C006A2AAB /* Maximum Average Subarray I  .swift in Sources */ = {isa = PBXBuildFile; fileRef = 400AB5842BE5FD5C006A2AAB /* Maximum Average Subarray I  .swift */; };
+		400AB5872BE60194006A2AAB /* Max Consecutive Ones III  .swift in Sources */ = {isa = PBXBuildFile; fileRef = 400AB5862BE60194006A2AAB /* Max Consecutive Ones III  .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +32,9 @@
 		400AB5702BE1E818006A2AAB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		400AB57B2BE1E92B006A2AAB /* 26. Remove Duplicates from Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "26. Remove Duplicates from Sorted Array.swift"; sourceTree = "<group>"; };
 		400AB57F2BE1ED83006A2AAB /* 27. Remove Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "27. Remove Element.swift"; sourceTree = "<group>"; };
+		400AB5822BE5FA32006A2AAB /* ex1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ex1.swift; sourceTree = "<group>"; };
+		400AB5842BE5FD5C006A2AAB /* Maximum Average Subarray I  .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Maximum Average Subarray I  .swift"; sourceTree = "<group>"; };
+		400AB5862BE60194006A2AAB /* Max Consecutive Ones III  .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Max Consecutive Ones III  .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +84,21 @@
 		400AB57A2BE1E927006A2AAB /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				400AB5812BE5FA25006A2AAB /* SlidingWindow */,
 				400AB57B2BE1E92B006A2AAB /* 26. Remove Duplicates from Sorted Array.swift */,
 				400AB57F2BE1ED83006A2AAB /* 27. Remove Element.swift */,
 			);
 			path = Array;
+			sourceTree = "<group>";
+		};
+		400AB5812BE5FA25006A2AAB /* SlidingWindow */ = {
+			isa = PBXGroup;
+			children = (
+				400AB5822BE5FA32006A2AAB /* ex1.swift */,
+				400AB5842BE5FD5C006A2AAB /* Maximum Average Subarray I  .swift */,
+				400AB5862BE60194006A2AAB /* Max Consecutive Ones III  .swift */,
+			);
+			path = SlidingWindow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				400AB5852BE5FD5C006A2AAB /* Maximum Average Subarray I  .swift in Sources */,
 				400AB5712BE1E818006A2AAB /* main.swift in Sources */,
 				400AB5802BE1ED83006A2AAB /* 27. Remove Element.swift in Sources */,
+				400AB5832BE5FA32006A2AAB /* ex1.swift in Sources */,
+				400AB5872BE60194006A2AAB /* Max Consecutive Ones III  .swift in Sources */,
 				400AB57C2BE1E95E006A2AAB /* 26. Remove Duplicates from Sorted Array.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
