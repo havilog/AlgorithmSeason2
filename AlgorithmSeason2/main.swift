@@ -13,6 +13,10 @@ class Solution {
 
 let solution: Solution = .init()
 
-let result = solution.longestOnes()
-print(result)
-
+minStartValue()
+//
+//let result = solution.longestOnes()
+//print(result)
+//
+//let t = runningSum([1, 2, 3, 4])
+//print(t)
