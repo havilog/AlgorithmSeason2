@@ -13,7 +13,8 @@ class Solution {
 
 let solution: Solution = .init()
 
-minStartValue()
+checkIfPangram()
+//minStartValue()
 //
 //let result = solution.longestOnes()
 //print(result)

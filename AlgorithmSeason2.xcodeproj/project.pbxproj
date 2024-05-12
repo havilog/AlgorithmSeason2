@@ -15,6 +15,8 @@
 		400AB5872BE60194006A2AAB /* Max Consecutive Ones III  .swift in Sources */ = {isa = PBXBuildFile; fileRef = 400AB5862BE60194006A2AAB /* Max Consecutive Ones III  .swift */; };
 		400AB58A2BE8AAA1006A2AAB /* Running Sum of 1d Array  .swift in Sources */ = {isa = PBXBuildFile; fileRef = 400AB5892BE8AAA1006A2AAB /* Running Sum of 1d Array  .swift */; };
 		400AB58C2BE8AD00006A2AAB /* Minimum Value to Get Positive Step by Step Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400AB58B2BE8AD00006A2AAB /* Minimum Value to Get Positive Step by Step Sum.swift */; };
+		401B5E352BF0AC8200D953B2 /* Check if the Sentence Is Pangram  .swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B5E342BF0AC8200D953B2 /* Check if the Sentence Is Pangram  .swift */; };
+		401B5E372BF0AEF400D953B2 /* Missing Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B5E362BF0AEF400D953B2 /* Missing Number.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +41,8 @@
 		400AB5862BE60194006A2AAB /* Max Consecutive Ones III  .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Max Consecutive Ones III  .swift"; sourceTree = "<group>"; };
 		400AB5892BE8AAA1006A2AAB /* Running Sum of 1d Array  .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Running Sum of 1d Array  .swift"; sourceTree = "<group>"; };
 		400AB58B2BE8AD00006A2AAB /* Minimum Value to Get Positive Step by Step Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Value to Get Positive Step by Step Sum.swift"; sourceTree = "<group>"; };
+		401B5E342BF0AC8200D953B2 /* Check if the Sentence Is Pangram  .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Check if the Sentence Is Pangram  .swift"; sourceTree = "<group>"; };
+		401B5E362BF0AEF400D953B2 /* Missing Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Missing Number.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,7 @@
 		400AB5772BE1E8F7006A2AAB /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				401B5E332BF0AC7E00D953B2 /* Hash */,
 				400AB57A2BE1E927006A2AAB /* Array */,
 			);
 			path = leetcode;
@@ -113,6 +118,15 @@
 				400AB58B2BE8AD00006A2AAB /* Minimum Value to Get Positive Step by Step Sum.swift */,
 			);
 			path = PrefixSum;
+			sourceTree = "<group>";
+		};
+		401B5E332BF0AC7E00D953B2 /* Hash */ = {
+			isa = PBXGroup;
+			children = (
+				401B5E342BF0AC8200D953B2 /* Check if the Sentence Is Pangram  .swift */,
+				401B5E362BF0AEF400D953B2 /* Missing Number.swift */,
+			);
+			path = Hash;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,9 +187,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				401B5E372BF0AEF400D953B2 /* Missing Number.swift in Sources */,
 				400AB5852BE5FD5C006A2AAB /* Maximum Average Subarray I  .swift in Sources */,
 				400AB5712BE1E818006A2AAB /* main.swift in Sources */,
 				400AB58A2BE8AAA1006A2AAB /* Running Sum of 1d Array  .swift in Sources */,
+				401B5E352BF0AC8200D953B2 /* Check if the Sentence Is Pangram  .swift in Sources */,
 				400AB5802BE1ED83006A2AAB /* 27. Remove Element.swift in Sources */,
 				400AB5832BE5FA32006A2AAB /* ex1.swift in Sources */,
 				400AB5872BE60194006A2AAB /* Max Consecutive Ones III  .swift in Sources */,
