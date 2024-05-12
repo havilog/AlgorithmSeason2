@@ -17,6 +17,7 @@
 		400AB58C2BE8AD00006A2AAB /* Minimum Value to Get Positive Step by Step Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400AB58B2BE8AD00006A2AAB /* Minimum Value to Get Positive Step by Step Sum.swift */; };
 		401B5E352BF0AC8200D953B2 /* Check if the Sentence Is Pangram  .swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B5E342BF0AC8200D953B2 /* Check if the Sentence Is Pangram  .swift */; };
 		401B5E372BF0AEF400D953B2 /* Missing Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B5E362BF0AEF400D953B2 /* Missing Number.swift */; };
+		401B5E392BF0B28700D953B2 /* Counting Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B5E382BF0B28700D953B2 /* Counting Elements.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		400AB58B2BE8AD00006A2AAB /* Minimum Value to Get Positive Step by Step Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Value to Get Positive Step by Step Sum.swift"; sourceTree = "<group>"; };
 		401B5E342BF0AC8200D953B2 /* Check if the Sentence Is Pangram  .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Check if the Sentence Is Pangram  .swift"; sourceTree = "<group>"; };
 		401B5E362BF0AEF400D953B2 /* Missing Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Missing Number.swift"; sourceTree = "<group>"; };
+		401B5E382BF0B28700D953B2 /* Counting Elements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Counting Elements.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 			children = (
 				401B5E342BF0AC8200D953B2 /* Check if the Sentence Is Pangram  .swift */,
 				401B5E362BF0AEF400D953B2 /* Missing Number.swift */,
+				401B5E382BF0B28700D953B2 /* Counting Elements.swift */,
 			);
 			path = Hash;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				400AB5832BE5FA32006A2AAB /* ex1.swift in Sources */,
 				400AB5872BE60194006A2AAB /* Max Consecutive Ones III  .swift in Sources */,
 				400AB58C2BE8AD00006A2AAB /* Minimum Value to Get Positive Step by Step Sum.swift in Sources */,
+				401B5E392BF0B28700D953B2 /* Counting Elements.swift in Sources */,
 				400AB57C2BE1E95E006A2AAB /* 26. Remove Duplicates from Sorted Array.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
