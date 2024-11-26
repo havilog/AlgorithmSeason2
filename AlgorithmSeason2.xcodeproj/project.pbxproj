@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,9 @@
 		401B5E352BF0AC8200D953B2 /* Check if the Sentence Is Pangram  .swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B5E342BF0AC8200D953B2 /* Check if the Sentence Is Pangram  .swift */; };
 		401B5E372BF0AEF400D953B2 /* Missing Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B5E362BF0AEF400D953B2 /* Missing Number.swift */; };
 		401B5E392BF0B28700D953B2 /* Counting Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B5E382BF0B28700D953B2 /* Counting Elements.swift */; };
+		4070FB982CF5E06000494514 /* Find Players With Zero or One Losses  .swift in Sources */ = {isa = PBXBuildFile; fileRef = 4070FB972CF5E05F00494514 /* Find Players With Zero or One Losses  .swift */; };
+		4070FB9A2CF5E19300494514 /* Largest Unique Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4070FB992CF5E19300494514 /* Largest Unique Number.swift */; };
+		4070FB9C2CF5E3A000494514 /* Maximum Number of Balloons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4070FB9B2CF5E3A000494514 /* Maximum Number of Balloons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,7 +48,14 @@
 		401B5E342BF0AC8200D953B2 /* Check if the Sentence Is Pangram  .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Check if the Sentence Is Pangram  .swift"; sourceTree = "<group>"; };
 		401B5E362BF0AEF400D953B2 /* Missing Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Missing Number.swift"; sourceTree = "<group>"; };
 		401B5E382BF0B28700D953B2 /* Counting Elements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Counting Elements.swift"; sourceTree = "<group>"; };
+		4070FB972CF5E05F00494514 /* Find Players With Zero or One Losses  .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Find Players With Zero or One Losses  .swift"; sourceTree = "<group>"; };
+		4070FB992CF5E19300494514 /* Largest Unique Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Largest Unique Number.swift"; sourceTree = "<group>"; };
+		4070FB9B2CF5E3A000494514 /* Maximum Number of Balloons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Maximum Number of Balloons.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4070FB9D2CF5F7E000494514 /* Greedy */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Greedy; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		400AB56A2BE1E818006A2AAB /* Frameworks */ = {
@@ -86,6 +96,7 @@
 		400AB5772BE1E8F7006A2AAB /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				4070FB9D2CF5F7E000494514 /* Greedy */,
 				401B5E332BF0AC7E00D953B2 /* Hash */,
 				400AB57A2BE1E927006A2AAB /* Array */,
 			);
@@ -128,6 +139,9 @@
 				401B5E342BF0AC8200D953B2 /* Check if the Sentence Is Pangram  .swift */,
 				401B5E362BF0AEF400D953B2 /* Missing Number.swift */,
 				401B5E382BF0B28700D953B2 /* Counting Elements.swift */,
+				4070FB972CF5E05F00494514 /* Find Players With Zero or One Losses  .swift */,
+				4070FB992CF5E19300494514 /* Largest Unique Number.swift */,
+				4070FB9B2CF5E3A000494514 /* Maximum Number of Balloons.swift */,
 			);
 			path = Hash;
 			sourceTree = "<group>";
@@ -146,6 +160,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4070FB9D2CF5F7E000494514 /* Greedy */,
 			);
 			name = AlgorithmSeason2;
 			productName = AlgorithmSeason2;
@@ -196,6 +213,9 @@
 				400AB58A2BE8AAA1006A2AAB /* Running Sum of 1d Array  .swift in Sources */,
 				401B5E352BF0AC8200D953B2 /* Check if the Sentence Is Pangram  .swift in Sources */,
 				400AB5802BE1ED83006A2AAB /* 27. Remove Element.swift in Sources */,
+				4070FB9C2CF5E3A000494514 /* Maximum Number of Balloons.swift in Sources */,
+				4070FB982CF5E06000494514 /* Find Players With Zero or One Losses  .swift in Sources */,
+				4070FB9A2CF5E19300494514 /* Largest Unique Number.swift in Sources */,
 				400AB5832BE5FA32006A2AAB /* ex1.swift in Sources */,
 				400AB5872BE60194006A2AAB /* Max Consecutive Ones III  .swift in Sources */,
 				400AB58C2BE8AD00006A2AAB /* Minimum Value to Get Positive Step by Step Sum.swift in Sources */,
