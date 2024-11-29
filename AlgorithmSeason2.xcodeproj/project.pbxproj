@@ -55,6 +55,7 @@
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		4070FB9D2CF5F7E000494514 /* Greedy */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Greedy; sourceTree = "<group>"; };
+		4070FBA22CF981FD00494514 /* BinarySearch */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = BinarySearch; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +97,7 @@
 		400AB5772BE1E8F7006A2AAB /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				4070FBA22CF981FD00494514 /* BinarySearch */,
 				4070FB9D2CF5F7E000494514 /* Greedy */,
 				401B5E332BF0AC7E00D953B2 /* Hash */,
 				400AB57A2BE1E927006A2AAB /* Array */,
@@ -163,6 +165,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				4070FB9D2CF5F7E000494514 /* Greedy */,
+				4070FBA22CF981FD00494514 /* BinarySearch */,
 			);
 			name = AlgorithmSeason2;
 			productName = AlgorithmSeason2;

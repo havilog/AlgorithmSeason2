@@ -13,7 +13,7 @@ class Solution {
 
 let solution: Solution = .init()
 
-checkIfPangram()
+print(searchInsert([1,3,5,6], 2))
 //minStartValue()
 //
 //let result = solution.longestOnes()
